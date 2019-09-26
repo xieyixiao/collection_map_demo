@@ -82,7 +82,6 @@ public class ListTest {
 	
 	/**
 	 * 通过迭代器来遍历List
-	 * @param args
 	 */
 	
 	public void testIterator(){
@@ -108,7 +107,6 @@ public class ListTest {
 	
 	/**
 	 * 修改List中的元素
-	 * @param args
 	 */
 	public void testModify(){
 		coursesToSelect.set(4, new Course("7","毛概"));
@@ -116,7 +114,6 @@ public class ListTest {
 	
 	/**
 	 * 删除List中的元素
-	 * @param args
 	 */
 	
 	public void testRemove(){
@@ -131,7 +128,6 @@ public class ListTest {
 	
 	/**
 	 * 往List 中添加一些奇怪的东西
-	 * @param args
 	 */
 	
 	public void testType(){
