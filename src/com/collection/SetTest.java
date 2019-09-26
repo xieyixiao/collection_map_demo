@@ -60,7 +60,6 @@ public class SetTest {
 	
 	/**
 	 * 通过for each方法访问集合元素
-	 * @param args
 	 */
 	public void testForEach(){
 		System.out.println("有如下课程待选(通过for each语句访问)：");

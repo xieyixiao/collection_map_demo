@@ -24,7 +24,6 @@ public class MapTest {
 		 * 测试添加：输入学生ID，判断是否被占用
 		 * 若未被占用，则输入姓名，创建新学生对象，并且
 		 * 添加到students中
-		 * @param args
 		 */
 		public void testPut(){
 			//创建一个Scanner对象，用来获取输入的学生ID和姓名
@@ -54,7 +53,6 @@ public class MapTest {
 		
 		/**
 		 * 测试Map的keySet方法
-		 * @param args
 		 */
 		public void testKeySet(){
 			//通过keySet方法，返回Map中的所有"键"的Set集合

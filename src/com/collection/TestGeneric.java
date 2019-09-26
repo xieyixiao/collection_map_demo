@@ -17,7 +17,6 @@ public class TestGeneric {
 	
 	/**
 	 * 测试添加
-	 * @param args
 	 */
 	public void testAdd(){
 		Course cr1=new Course("1","大学语文");
@@ -29,7 +28,6 @@ public class TestGeneric {
 	}
 	/**
 	 * 测试循环遍历
-	 * @param args
 	 */
 	public void testForEach(){
 		for(Course cr:courses){
@@ -39,7 +37,6 @@ public class TestGeneric {
 	
 	/**
 	 * 泛型结合可以添加泛型的子类的实例对象
-	 * @param args
 	 */
 	public void testChild(){
 		ChildCourse ccr=new ChildCourse();
@@ -50,7 +47,6 @@ public class TestGeneric {
 	
 	/**
 	 * 泛型不能使用基本类型
-	 * @param args
 	 */
 	public void testBasicType(){
 		List<Integer> list=new ArrayList<Integer>();
